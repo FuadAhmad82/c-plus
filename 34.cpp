@@ -9,10 +9,11 @@ int main()
 	
 	std::cin >> favorite_number;
 
-	std::cout << "this is my number too " ;
-    std::cout << favorite_number ;
+	std::cout << "this is my number too " << std::endl; 
+    
 
-	std::cout << " this is no  " << std::endl;
+	std::cout << " this is no  " ;
+	std::cout << favorite_number << std::endl;
 
     
 
