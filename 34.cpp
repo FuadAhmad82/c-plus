@@ -1,21 +1,15 @@
-// Example program
+#include "stdafx.h"
 #include <iostream>
-#include <string>
 
-int main()
+
+int _tmain()
 {
 	int favorite_number;
-	std::cout << "Enter your Favorite Number";
-	
+	std::cout << "Enter your Favorite Number Between 1 and 100 ";
 	std::cin >> favorite_number;
-
-	std::cout << "this is my number too " << std::endl; 
-    
-
-	std::cout << " this is no  " ;
-	std::cout << favorite_number << std::endl;
-
-    
-
+	std::cout << "Amazing that's my favorite number too" << std::endl;
+	std::cout << "No really " << favorite_number << " is my favorite number" << std::endl;
+	system("pause"); // pause the command line 
 	return 0;
 }
+
